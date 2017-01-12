@@ -1,0 +1,17 @@
+p {
+	max-width: 600px;
+	margin-left: 300px;
+}
+
+body {
+	text-align:center;
+	font-family: "Gill Sans", sans-serif;
+	margin: auto;
+}
+
+h1 {
+	color: #1F9DA3;
+	font-size: 3em;
+}
+
+/* This is the Blog css*/

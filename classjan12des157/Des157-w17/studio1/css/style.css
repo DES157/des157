@@ -1,0 +1,54 @@
+/*stylesheet for portal*/
+
+body {
+	margin: auto;
+	text-align: center;
+	font-family: "Gill Sans", sans-serif;
+	
+}
+
+h1 {
+	color: #1F9DA3;
+	font-size: 3em;
+}
+
+h2 {
+	color: #1F9DA3;
+}
+
+.left {
+	float: left;
+	border: 3px solid #1F9DA3;
+	padding: 25px;
+	margin-left: 200px;
+	margin-right: 20px;
+	
+}
+
+.middle {
+	float: left;
+	border: 3px solid #1F9DA3;
+	padding: 25px;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+.right {
+	float: left;
+	border: 3px solid #1F9DA3;
+	padding: 25px;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+p {
+	max-width: 600px;
+	text-align:center;
+}
+
+footer {
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	border: 3px solid #1F9DA3;
+}
