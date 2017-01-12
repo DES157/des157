@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+
+body {
+    font-family: consolas, Helvetica, sans-serif;
+    font-size: 12px;
+    color:white;
+    width:800px;
+    margin:auto;
+    background-color: #0e1e38;
+}
+
+header {
+    width:800px;
+    height:250px;
+    background-color: pink;
+}
+
+article {}
+
+h1 {
+    color:white;
+    font-size:40px;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer {
+    clear: both;
+    margin-top: 200px;
+    text-align: center;
+}
