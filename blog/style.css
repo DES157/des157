@@ -1,0 +1,28 @@
+
+body{
+	margin: 100px;
+	font-family: 'Padauk', sans-serif;
+}
+header{
+	width: 800px;
+	height: 250px;
+	margin:auto;
+}
+img{
+	width: 150px;
+}
+
+nav{
+	float:left;
+	width: 30%;
+}
+aside{
+	float:left;
+	width: 70%;
+}
+h1{
+	background-color:#ff3300;
+}
+h2{
+	background-color:#ffff66;
+}
