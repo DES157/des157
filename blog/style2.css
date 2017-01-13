@@ -28,15 +28,11 @@ p{
     font-size: 15px;
     color: #20b2b2;
 }
-img{
-    width: 500px;
-    height: 250px;
-}
 footer{
 	width: 100%;
 	position: absolute;
-  bottom:.5px;
-  left: 46%;
+    bottom: 500px;
+    left: 46%;
 }
 a:link{
     font-family: helvetica;
