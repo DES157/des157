@@ -1,9 +1,9 @@
 body {
-  background-color: #8bcad3;
+  background-color: #d3ebee;
 }
 
 section {
-  background-color: #386b73;
+  background-color: #305459;
   position: fixed;
   top: 0%;
   left: 0%;
@@ -14,7 +14,7 @@ section {
 h1 {
   font-family: helvetica;
   font-size: 20px;
-  color: #8bcad3;
+  color: #d3ebee;
   margin-left: 38%;
   margin-top: 5px;
 }
@@ -23,39 +23,47 @@ header {
   width: 800px;
   height: 250px;
   margin: auto;
+  padding-bottom: 100;
+  padding-top: 30px;
 }
 
 main {
-
+  width: 795px;
+  margin: auto;
 }
 
-div {
-  width: 300px;
-  height: 500px;
+main div {
+  width: 225px;
+  height: 250px;
   margin: 20px;
-  background-color: #6eacb5;
+  background-color: #91bdc3;
   float: left;
 }
 
 h2 {
   font-family: helvetica;
   font-size: 20px;
-  color: #386b73;
-  margin-left: 5px;
+  color: #305459;
+  margin-left: 15px;
 }
 
 li a {
   font-family: helvetica;
   font-size: 15px;
-  color: #386b73;
+  color: #305459;
+}
+
+li {
+  margin-bottom: 5px;
 }
 
 ul {
   list-style: none;
+  margin-left: -25px;
 }
 
 footer {
-  background-color: #386b73;
+  background-color: #305459;
   position: fixed;
   bottom: 0%;
   left: 0%;
@@ -63,9 +71,21 @@ footer {
   height: 30px;
 }
 
+footer div {
+  width: 335px;
+  margin: auto;
+}
+
+h3 {
+  display: inline;
+  margin-right: 30px;
+}
+
 h3 a {
   font-family: helvetica;
   font-size: 15px;
-  color: #8bcad3;
-  margin: auto;
+  color: #d3ebee;
+  margin-top: -10px;
+  padding-top: 0px;
+  text-decoration: none;
 }
