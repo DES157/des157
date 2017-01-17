@@ -5,10 +5,25 @@
 console.log("this is a js comment");
 
 
-var img;
-function preload() {
-  img = loadImage("banner_icons_1.png");
-}
+var bg;
 function setup() {
-  image(img, 0, 0);
+  bg = loadImage("banner.png");
+  createCanvas(800, 250);
 }
+    
+function draw() {
+  background(bg);
+}
+    
+    
+  // here we use a callback to display the image after loading
+  /*createCanvas(800, 250);
+  background(255);
+  loadImage("banner_icons_1.png", function(img) {
+    image(img, 0, 0);
+  });
+}
+
+function draw(){
+    image(img, 0,0);
+}*/
