@@ -1,5 +1,6 @@
 body {
   background-color: #d3ebee;
+  font-family: helvetica;
 }
 
 header {
@@ -13,7 +14,6 @@ header {
 }
 
 h1 {
-  font-family: helvetica;
   font-size: 35px;
   color: #d3ebee;
   margin-left: 38%;
@@ -30,7 +30,6 @@ article {
 }
 
 h2 {
-  font-family: helvetica;
   font-size: 20px;
   color: #305459;
   position: relative;
@@ -40,7 +39,6 @@ h2 {
 }
 
 h3 {
-  font-family: helvetica;
   font-size: 16px;
   color: #305459;
   float: right;
@@ -50,7 +48,6 @@ h3 {
 }
 
 p {
-  font-family: helvetica;
   font-size: 15px;
   color: #305459;
   margin-left: 10px;
@@ -61,7 +58,6 @@ p {
 }
 
 img {
-  width: 250px;
   display: inline-block;
   float: right;
   position: relative;
@@ -89,7 +85,6 @@ h4 {
 }
 
 h4 a {
-  font-family: helvetica;
   font-size: 15px;
   color: #d3ebee;
   margin-top: -10px;
