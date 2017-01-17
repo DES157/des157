@@ -1,5 +1,6 @@
 body {
   background-color: #d3ebee;
+  font-family: helvetica;
 }
 
 section {
@@ -12,7 +13,6 @@ section {
 }
 
 h1 {
-  font-family: helvetica;
   font-size: 20px;
   color: #d3ebee;
   margin-left: 38%;
@@ -31,7 +31,6 @@ header div{
 }
 
 h4 {
-  font-family: helvetica;
   font-size: 20px;
   width: 210px;
   color: #305459;
@@ -53,14 +52,12 @@ main div {
 }
 
 h2 {
-  font-family: helvetica;
   font-size: 20px;
   color: #305459;
   margin-left: 15px;
 }
 
 li a {
-  font-family: helvetica;
   font-size: 15px;
   color: #305459;
 }
@@ -94,7 +91,6 @@ h3 {
 }
 
 h3 a {
-  font-family: helvetica;
   font-size: 15px;
   color: #d3ebee;
   margin-top: -10px;
