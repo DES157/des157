@@ -14,11 +14,11 @@ body {
     line-height: 16px;
 }
 
-header {
+main {
     width: 800px;
 }
 
-main {
+header {
     width: 800px;
     height: 250px;
     border-bottom: 5px solid #EAC324;
@@ -38,7 +38,7 @@ article p {
 }
 
 section {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 /*my name*/
