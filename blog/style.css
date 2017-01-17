@@ -64,12 +64,8 @@ a:hover {
     padding-top:10px;
 }
 
-section {
+main {
     width: 600px;
-}
-
-section h1 {
-    display: none;
 }
 
 article {
@@ -101,10 +97,15 @@ img {
     padding: 0px 20px 10px 0px;
 }
 
-div {
+section {
     padding-bottom: 5px;
     margin-bottom: 5px;
 }
+
+section h1 {
+    display: none;
+}
+
 p {
     margin-top: 10px;
 }
