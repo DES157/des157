@@ -28,6 +28,7 @@ article {
     width: 500px;
     text-align: center;
     margin: auto;
+    margin-top:30px;
     padding: 10px;
     border-left: 5px solid #EAC324;
     border-right: 5px solid #EAC324;
@@ -35,10 +36,6 @@ article {
 
 article p {
     font-style: italic;
-}
-
-section {
-    margin-top: 30px;
 }
 
 /*my name*/
