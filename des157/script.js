@@ -1,6 +1,11 @@
-function setup() {
+  var colorIndex;
+  var colors;
+ 
+ function setup() {
   var myCanvas = createCanvas(800,250);
   myCanvas.parent ('mySketch');  
+  colors = [color('#fff'), color('#4391AF'), color('#52BDE7'), color('#4786A2')];
+ 
 }
 
 function draw() {
@@ -10,23 +15,24 @@ function draw() {
   var j= 125;
   var p= 100;
   var q= random(300,500);
-  color[] colors = new color[4];
-//lines color ranges array
- colors[0] = color(255);
- colors[1] = color('#5AC6D3');
- colors[2] = color('#35A8AC');
- colors[3] = color('#125A6D');
  
-  stroke(colors[var(random(colors.length))]);
+//lines color ranges array
+ colorIndex=int(random(colors.length-1));
+
+console.log('colorIndex: ' + colorIndex);
+ 
+stroke(255);
   strokeWeight(2);
   ellipse(k,j,p,p);
+    stroke(colors[colorIndex]);
   line(k,j,touchX,touchY);
-  
+ 
+ 
 //circle color changes based on mouse   
   
  if (touchX <=200){
    strokeWeight(10);
-   stroke('#5AC6D3');
+   stroke('#4391AF');
    noFill();
    ellipse(k,j,p,p);
    
@@ -34,7 +40,7 @@ function draw() {
    
  } else if ((touchX >200)&&(touchX <400)){
    strokeWeight(10);
-   stroke('#35A8AC');
+   stroke('#52BDE7');
    noFill();
    ellipse(k,j,p,p);
   
@@ -48,12 +54,13 @@ function draw() {
    
  } else{
    strokeWeight(10);
-   stroke('#125A6D');
+   stroke('#4786A2');
    noFill();
    ellipse(k,j,p,p);
   
 
  }
+ 
     
 }
  

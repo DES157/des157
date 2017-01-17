@@ -6,9 +6,15 @@ p {
 
 body {
 	text-align:center;
-	font-family: "Gill Sans", sans-serif;
 	margin: auto;
 	background-image: url("../images/waves.png");
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-size:0.85em;
+	background-color: #4391AF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 h1 {
