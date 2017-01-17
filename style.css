@@ -16,6 +16,10 @@ body {
 
 header {
     width: 800px;
+}
+
+main {
+    width: 800px;
     height: 250px;
     border-bottom: 5px solid #EAC324;
 }
