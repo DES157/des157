@@ -15,8 +15,6 @@ body {
 }
 
 header {
-    position: relative;
-    top: -100px;
     width: 800px;
     height: 250px;
     border-bottom: 5px solid #EAC324;
