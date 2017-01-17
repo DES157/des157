@@ -1,5 +1,16 @@
 /*stylesheet for portal*/
 
+header#mySketch {
+	width: 800px;
+	height: 250px;
+	margin: -190px auto 0px auto;
+	
+}
+
+header#name {
+	margin: 290px auto 22px auto;
+}
+
 body {
 	margin: auto;
 	text-align: center;
@@ -53,8 +64,9 @@ a:active {
 .left {
 	float: left;
 	padding: 25px;
-	margin-left: 200px;
+	margin-left: 300px;
 	margin-right: 20px;
+	
 	
 }
 
@@ -63,6 +75,7 @@ a:active {
 	padding: 25px;
 	margin-left: 50px;
 	margin-right: 20px;
+	
 }
 
 .right {
@@ -70,6 +83,7 @@ a:active {
 	padding: 25px;
 	margin-left: 50px;
 	margin-right: 20px;
+	
 }
 
 
@@ -77,12 +91,14 @@ ul {
 	color: white;
     text-decoration: none;
     list-style-type: none;
+    text-align: left;
     
 }
 
 ol {
 	color: white;
     text-decoration: none;
+    text-align: left;
     
 }
 
