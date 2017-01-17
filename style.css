@@ -16,6 +16,11 @@ body {
 
 header {
     width: 800px;
+    height: 290px;
+}
+
+#mySketch {
+    width: 800px;
     height: 250px;
 }
 
