@@ -42,7 +42,8 @@ h3 {
 
 ul {
     list-style-type: none;
-    padding-top: 10px;
+    padding: 10px 0px;
+    border-bottom:2px solid #ffffff;
 }
 
 a {
@@ -54,6 +55,13 @@ a {
 a:hover {
     color: #00271F;
     text-decoration: underline;
+}
+
+/*go back to portal*/
+#portal {
+    font-size: 10px;
+    display: inline-block;
+    padding-top:10px;
 }
 
 section {
