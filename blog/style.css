@@ -10,7 +10,7 @@ header {
 }	
 
 body, section, footer {
-	width: 800px;
+	width: 500px;
 	}
 
 section {
@@ -46,6 +46,7 @@ h4 {
 
 p {
 	margin: 0px 0px 10px 0px;
+	letter-spacing: 1px;
 }
 
 img {
