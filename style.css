@@ -21,26 +21,16 @@ main {
 header {
     width: 800px;
     height: 250px;
-    border-bottom: 5px solid #EAC324;
-}
-
-article {
-    width: 500px;
-    text-align: center;
-    margin: auto;
-    margin-top:30px;
-    padding: 10px;
-    border-left: 5px solid #EAC324;
-    border-right: 5px solid #EAC324;
-}
-
-article p {
-    font-style: italic;
 }
 
 /*my name*/
-h3 {
+h1 {
     text-transform: uppercase;
+    background-color: #EAC324;
+    color:#ffffff;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
 div {
