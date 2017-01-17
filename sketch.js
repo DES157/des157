@@ -1,17 +1,13 @@
-var cnv;
+console.log("this is mysketch.js comment");
 
-function centerCanvas() {
-  var x = (windowWidth - width) / 2;
-  var y = 150;
-  cnv.position(x, y);
-}
+var ghx, ghy, elx, ely, erx, ery, d; //groundhogX and Y, eyeleftX and Y, eyerightX and Y, diameter
 
 function setup() {
-  cnv = createCanvas(800, 200);
-  centerCanvas();
-  background(244, 66, 83);
+    var myCanvas = createCanvas(800, 250);
+    //has to parent to an id 
+    myCanvas.parent('mySketch');
+     background(244, 66, 83);
 }
-
 
 function draw() {
   if (mouseIsPressed) {
