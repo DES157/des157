@@ -23,7 +23,7 @@ header {
 }
 
 article {
-    position: relative;
+    position: absolute;
     top: 290px;
     width: 500px;
     text-align: center;
