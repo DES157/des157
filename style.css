@@ -16,15 +16,13 @@ body {
 
 header {
     position: relative;
-    top: 0px;
+    top: -100px;
     width: 800px;
     height: 250px;
     border-bottom: 5px solid #EAC324;
 }
 
 article {
-    position: relative;
-    top: 350px;
     width: 500px;
     text-align: center;
     margin: auto;
