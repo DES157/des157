@@ -5,7 +5,8 @@
 body {
 	margin: auto;
 	text-align: center;
-	font-size:1em;
+	font-family: 'Quicksand', sans-serif;
+	font-size:75%;
 	background-image: url("../images/waves.png");
     background-color: white;
     background-size: 1366px 768px;
@@ -15,13 +16,12 @@ body {
 
 h1 {
 	color: white;
-
+	font-size: 3em;
 }
 
 h2 {
 	color: white;
 	text-decoration: underline;
-	
 }
 
 /* unvisited link */
@@ -86,5 +86,4 @@ footer {
 	position: fixed;
 	bottom: 0;
 	border: 3px solid white;
-	
 }
