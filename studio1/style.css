@@ -20,21 +20,33 @@ h1 {
 }
 
 header {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+header div{
   width: 800px;
   height: 250px;
   margin: auto;
-  padding-bottom: 100;
-  padding-top: 30px;
+}
+
+h4 {
+  font-family: helvetica;
+  font-size: 20px;
+  width: 210px;
+  color: #305459;
+  margin: auto;
 }
 
 main {
   width: 795px;
+  height: 300px;
   margin: auto;
 }
 
 main div {
   width: 225px;
-  height: 250px;
+  height: 225px;
   margin: 20px;
   background-color: #91bdc3;
   float: left;
