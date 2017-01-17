@@ -24,7 +24,7 @@ header {
 
 article {
     position: relative;
-    top: 290px;
+    top: 350px;
     width: 500px;
     text-align: center;
     margin: auto;
@@ -33,12 +33,12 @@ article {
     border-right: 5px solid #EAC324;
 }
 
-section {
-    margin-top: 100px;
-}
-
 article p {
     font-style: italic;
+}
+
+section {
+    margin-top: 100px;
 }
 
 /*my name*/
