@@ -9,8 +9,8 @@ body {
 	background-image: url("../images/waves.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
-	
+    background-attachment: fixed;
+    background-position: center; 	
 }
 
 h1 {
