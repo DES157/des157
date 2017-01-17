@@ -1,24 +1,52 @@
 /*stylesheet for portal*/
 
+	
+
 body {
 	margin: auto;
 	text-align: center;
-	font-family: "Gill Sans", sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-size:75%;
+	background-image: url("../images/waves.png");
+    background-color: white;
+    background-size: 1366px 768px;
+    background-repeat: no-repeat;
 	
 }
 
 h1 {
-	color: #1F9DA3;
+	color: white;
 	font-size: 3em;
 }
 
 h2 {
-	color: #1F9DA3;
+	color: white;
+	text-decoration: underline;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
 
 .left {
 	float: left;
-	border: 3px solid #1F9DA3;
 	padding: 25px;
 	margin-left: 200px;
 	margin-right: 20px;
@@ -27,7 +55,6 @@ h2 {
 
 .middle {
 	float: left;
-	border: 3px solid #1F9DA3;
 	padding: 25px;
 	margin-left: 50px;
 	margin-right: 20px;
@@ -35,20 +62,28 @@ h2 {
 
 .right {
 	float: left;
-	border: 3px solid #1F9DA3;
 	padding: 25px;
 	margin-left: 50px;
 	margin-right: 20px;
 }
 
-p {
-	max-width: 600px;
-	text-align:center;
+
+ul {
+	color: white;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+ol {
+	color: white;
+    text-decoration: none;
+    
 }
 
 footer {
 	clear: both;
 	position: fixed;
 	bottom: 0;
-	border: 3px solid #1F9DA3;
+	border: 3px solid white;
 }
