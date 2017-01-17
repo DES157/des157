@@ -11,26 +11,28 @@ body {
     font-size: 12px;
     color: #00271F;
     background-color: #EEF2E0;
-    border-color: #EAC324;
+    line-height: 16px;
 }
 
 header {
     width: 800px;
     height: 250px;
-    border-bottom: 5px solid;
+    border-bottom: 5px solid #EAC324;
 }
 
 article {
+    position: relative;
+    top: 290px;
     width: 500px;
     text-align: center;
     margin: auto;
-    padding: 15px;
-    border-left: 5px solid;
-    border-right: 5px solid;
+    padding: 10px;
+    border-left: 5px solid #EAC324;
+    border-right: 5px solid #EAC324;
 }
 
 section {
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 article p {
