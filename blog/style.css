@@ -68,6 +68,10 @@ section {
     width: 600px;
 }
 
+section h1 {
+    display: none;
+}
+
 article {
     width: 500px;
     background-color: #ffffff;
