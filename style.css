@@ -91,6 +91,7 @@ h3 {
 }
 
 h3 a {
+  font-family: helvetica;
   font-size: 15px;
   color: #d3ebee;
   margin-top: -10px;
