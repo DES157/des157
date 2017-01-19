@@ -47,7 +47,11 @@ p {
 }
 
 section {
-  margin-top: 20px;
+    margin-top: 20px;
+}
+
+section h1 {
+    display:none;
 }
 
 div {
