@@ -1,55 +1,58 @@
 * {
     margin: 0px;
-    padding: 0px
+    padding: 0px;
 }
 
 
 body {
-    width: 800px;
     margin: auto;
     font-family: consolas, Helvetica, sans-serif;
     font-size: 12px;
     color: #00271F;
     background-color: #EEF2E0;
+    line-height: 16px;
+}
+
+body, h1, footer {
+    width: 800px;
 }
 
 header {
-    width: 800px;
-    height: 250px;
-    background-color: #ffffff;
-    border-bottom: 5px solid #EAC324;
-}
-
-section {
-    margin-top: 30px;
+    height: 290px;
 }
 
 article {
-    width: 500px;
+    position: absolute;
+    top: 250px;
+    padding: 23px 0px 10px 0px;
+    background-color: #EAC324;
+    color:#ffffff;
     text-align: center;
-    margin: auto;
-    padding: 15px;
-    border-left: 5px solid #EAC324;
-    border-right: 5px solid #EAC324;
-}
-
-article p {
-    font-style: italic;
 }
 
 /*my name*/
-h3 {
-  text-transform: uppercase;
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+h5 {
+    font-style: italic;
+    margin-top:5px;
+}
+
+section {
+    margin-top: 50px;
 }
 
 div {
-    margin-top: 30px;
     margin-left: 20px;
     padding: 20px;
     float: left;
     width: 200px;
     background-color: #ffffff;
-    border-top:5px solid #EAC324;
+    border-top: 5px solid #EAC324;
 
 }
 
@@ -57,8 +60,7 @@ div {
 h2 {
     text-align: center;
     text-transform: uppercase;
-    text-decoration: underline;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 a {
@@ -84,10 +86,9 @@ footer {
     clear: both; /*break from float*/
     position: fixed;
     bottom: 0px;
-    width: 800px;
     height: 20px;
     background-color: #EAC324;
-    font-size:10px;
+    font-size: 10px;
     text-align: center;
     padding: 10px 0px 2px 0px;
 }
