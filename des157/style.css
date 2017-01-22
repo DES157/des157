@@ -4,7 +4,7 @@ header#mySketch {
 	width: 800px;
 	height: 250px;
 	margin: -190px auto 0px auto;
-	
+
 }
 
 header#name {
@@ -21,7 +21,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 	
+    background-position: center;
 }
 
 h1 {
@@ -32,7 +32,7 @@ h1 {
 h2 {
 	color: white;
 	text-decoration: underline;
-	
+
 }
 
 #mySketch {
@@ -44,6 +44,7 @@ h2 {
 a:link {
     color: white;
     text-decoration: none;
+		padding-right:20px;
 }
 
 /* visited link */
@@ -66,8 +67,8 @@ a:active {
 	padding: 25px;
 	margin-left: 300px;
 	margin-right: 20px;
-	
-	
+
+
 }
 
 .middle {
@@ -75,7 +76,7 @@ a:active {
 	padding: 25px;
 	margin-left: 50px;
 	margin-right: 20px;
-	
+
 }
 
 .right {
@@ -83,24 +84,24 @@ a:active {
 	padding: 25px;
 	margin-left: 50px;
 	margin-right: 20px;
-	
-}
 
+}
 
 ul {
 	color: white;
     text-decoration: none;
     list-style-type: none;
     text-align: left;
-    
+
 }
 
 ol {
 	color: white;
     text-decoration: none;
     text-align: left;
-    
+
 }
+
 
 footer {
 	clear: both;
@@ -109,5 +110,5 @@ footer {
 	bottom: 0;
 	width: 100%;
 	border: 3px solid white;
-	font-size:1.5em;		
+	font-size:1.5em;
 }
