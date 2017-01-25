@@ -16,13 +16,13 @@ body {
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size:1em;
-	background-color: #FFF;
+	background-color: #DCFEFF;
 	  /*  #4391AF */
-	background-image: /*url("studio1/images/backdrop.png");
+	background-image: url("studio1/images/background2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;*/
+    background-position: center;
 }
 
 h1 {
