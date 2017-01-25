@@ -5,7 +5,7 @@ function setup() {
 var myCanvas = createCanvas(800,250);
 myCanvas.parent ('mySketch');
 colors = [color('#fff'), color('#4391AF'), color('#52BDE7'), color('#4786A2')];
-
+frameRate(6);
 }
 
 
