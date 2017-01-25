@@ -125,7 +125,8 @@ ol {
 .visibleLink:active {color: #ffffff; }
 
 footer {
-	color: white;
+	/*color: white;*/
+	background-color: #DCFEFF;
 	font-size:1.5em;
 	/*background-image: url("studio1/images/waves.png");*/
 	clear: both;
