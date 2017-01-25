@@ -18,11 +18,11 @@ body {
 	font-size:1em;
 	background-color: #FFF;
 	  /*  #4391AF */
-	background-image: url("studio1/images/backdrop.png");
+	background-image: /*url("studio1/images/backdrop.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center;*/
 }
 
 h1 {
@@ -39,7 +39,7 @@ h2 {
 
 p {
 	color:#4391AF;
-	
+
 }
 
 #mySketch {
