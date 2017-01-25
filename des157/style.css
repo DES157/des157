@@ -17,12 +17,12 @@ body {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size:1em;
 	background-color: #FFF;
-	/*    #4391AF blue color
-	background-image: url("studio1/images/waves.png");
+	  /*  #4391AF */
+	background-image: url("studio1/images/backdrop.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;*/
+    background-position: center;
 }
 
 h1 {
@@ -114,6 +114,10 @@ ol {
 
 }
 
+.visibleLink:link {color: #ffffff; }
+.visibleLink:visited {color: #ffffff; }
+.visibleLink:hover {color: #ffffff; }
+.visibleLink:active {color: #ffffff; }
 
 footer {
 	color: white;
