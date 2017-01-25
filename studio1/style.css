@@ -1,0 +1,32 @@
+body{
+width: 80%;
+margin: auto;
+font-family: 'Padauk', sans-serif;
+}
+img{
+padding-top: 300px;
+height: 100px;
+}
+a{
+color:grey;
+}
+header{
+width: 800px;
+height: 450px;
+margin: auto;
+}
+div{
+text-align: center;
+width: 33%;
+float: left;
+}
+footer{
+width: 100%;
+}
+a:hover { 
+    background-color: red;
+    color :white;
+}
+ul {
+  list-style-type: none;
+}
