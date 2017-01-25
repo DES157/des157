@@ -42,7 +42,7 @@ if (touchX <=200){
 
 } else if ((touchX >200)&&(touchX <400)){
  strokeCap(PROJECT);
- strokeWeight(90);
+ strokeWeight(80);
  stroke('#52BDE7');
  noFill();
  ellipse(k,j,p,p);
