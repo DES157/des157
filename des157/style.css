@@ -8,30 +8,32 @@ header#mySketch {
 }
 
 header#name {
-	margin: 290px auto 22px auto;
+	margin: 290px auto 10px auto;
 }
 
 body {
 	margin: auto;
 	text-align: center;
-	font-family: 'Fira Sans Extra Condensed', sans-serif;
-	font-size:0.85em;
-	background-color: #4391AF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:1em;
+	background-color: #FFF;
+	/*    #4391AF blue color
 	background-image: url("studio1/images/waves.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center;*/
 }
 
 h1 {
-	color: white;
+	color: #4391AF;
 
 }
 
 h2 {
-	color: white;
-	text-decoration: underline;
+	color: #4391AF;
+	text-align:left;
+	/*text-decoration: underline;*/
 
 }
 
@@ -42,14 +44,14 @@ h2 {
 
 /* unvisited link */
 a:link {
-    color: white;
+    color: #white;
     text-decoration: none;
 		padding-right:20px;
 }
 
 /* visited link */
 a:visited {
-    color: white;
+    color: #4391AF;
 }
 
 /* mouse over link */
@@ -58,15 +60,22 @@ a:hover {
 }
 
 /* selected link */
-a:active {
-    color: blue;
+/*a:active {
+    color: #4391AF;
+}*/
+
+nav {
+	margin-left:auto;
+	margin-right: auto;
+	margin-top:-15px;
+	color: #4391AF;
 }
 
 .left {
 	float: left;
 	padding: 25px;
-	margin-left: 300px;
-	margin-right: 20px;
+	margin-left: 210px;
+	margin-right: 95px;
 
 
 }
@@ -74,8 +83,8 @@ a:active {
 .middle {
 	float: left;
 	padding: 25px;
-	margin-left: 50px;
-	margin-right: 20px;
+	margin-left: 80px;
+	margin-right: 60px;
 
 }
 
@@ -88,15 +97,18 @@ a:active {
 }
 
 ul {
-	color: white;
+	color: #4391AF;
+	margin-left:-40px;
     text-decoration: none;
     list-style-type: none;
     text-align: left;
 
+
 }
 
 ol {
-	color: white;
+	color: #4391AF;
+	margin-left:-30px;
     text-decoration: none;
     text-align: left;
 
@@ -104,11 +116,14 @@ ol {
 
 
 footer {
+	color: white;
+	font-size:1.5em;
+	background-image: url("studio1/images/waves.png");
 	clear: both;
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	border: 3px solid white;
-	font-size:1.5em;
+	border-top: 3px solid white;
+
 }
