@@ -1,16 +1,18 @@
 p {
-	max-width: 600px;
-	margin-left: 300px;
-	color:white;
+	max-width: 800px;
+	text-align:left;
+	margin-left: 235px;
+	color: #4391AF;
 }
 
 body {
 	text-align:center;
 	margin: auto;
-	background-image: url("../images/waves.png");
-	font-family: 'Fira Sans Extra Condensed', sans-serif;
-	font-size:0.85em;
-	background-color: #4391AF;
+	margin: auto;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:1em;
+	background-color: #DCFEFF;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,8 +20,11 @@ body {
 }
 
 h1 {
-	color: white;
+	color: #4391AF;
 	font-size: 3em;
 }
 
-/* This is the Blog css*/
+h2 {
+	color: #4391AF;
+	margin-top:70px;
+}
