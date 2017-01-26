@@ -1,60 +1,70 @@
+var colorIndex;
+var colors;
+
 function setup() {
-  var myCanvas = createCanvas(800,250);
-  myCanvas.parent ('mySketch');  
+    var myCanvas = createCanvas(800, 250);
+    myCanvas.parent('mySketch');
+    colors = [color('#DCFEFF'), color('#DCFEFF'), color('#DCFEFF'), color('#4786A2')];
+    frameRate(6);
 }
+
+
 
 function draw() {
-  noFill();
-  stroke(255);
-  var k= 400;
-  var j= 125;
-  var p= 100;
-  var q= random(300,500);
-  color[] colors = new color[4];
-//lines color ranges array
- colors[0] = color(255);
- colors[1] = color('#5AC6D3');
- colors[2] = color('#35A8AC');
- colors[3] = color('#125A6D');
- 
-  stroke(colors[var(random(colors.length))]);
-  strokeWeight(2);
-  ellipse(k,j,p,p);
-  line(k,j,touchX,touchY);
-  
-//circle color changes based on mouse   
-  
- if (touchX <=200){
-   strokeWeight(10);
-   stroke('#5AC6D3');
-   noFill();
-   ellipse(k,j,p,p);
-   
+    noFill();
+    stroke(255);
+    var k = 400;
+    var j = 125;
+    var p = 100;
+    var q = random(300, 500);
 
-   
- } else if ((touchX >200)&&(touchX <400)){
-   strokeWeight(10);
-   stroke('#35A8AC');
-   noFill();
-   ellipse(k,j,p,p);
-  
-  
- } else if ((touchX >400)&&(touchX <600)){
-   strokeWeight(10);
-   stroke(255);
-   noFill();
-   ellipse(k,j,p,p);
-  
-   
- } else{
-   strokeWeight(10);
-   stroke('#125A6D');
-   noFill();
-   ellipse(k,j,p,p);
-  
+    //lines color ranges array
+    colorIndex = int(random(colors.length - 1));
 
- }
-    
+    console.log('colorIndex: ' + colorIndex);
+
+    stroke(255);
+    strokeWeight(60);
+    ellipse(k, j, p, p);
+    stroke(colors[colorIndex]);
+    line(k, j, touchX, touchY);
+
+
+    //circle color changes based on mouse
+    //lines below
+    if (touchX <= 200) {
+        strokeWeight(40);
+        stroke('#4391AF');
+        noFill();
+        ellipse(k, j, p, p);
+
+
+
+    } else if ((touchX > 200) && (touchX < 400)) {
+        strokeCap(PROJECT);
+        strokeWeight(80);
+        stroke('#52BDE7');
+        noFill();
+        ellipse(k, j, p, p);
+
+
+    } else if ((touchX > 400) && (touchX < 600)) {
+        strokeCap(PROJECT);
+        strokeWeight(30);
+        stroke(255);
+        noFill();
+        ellipse(k, j, p, p);
+
+
+    } else {
+        strokeCap(PROJECT);
+        strokeWeight(50);
+        stroke('#4786A2');
+        noFill();
+        ellipse(k, j, p, p);
+
+
+    }
+
+
 }
- 
- 
