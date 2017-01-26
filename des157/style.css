@@ -8,7 +8,7 @@ header#mySketch {
 }
 
 article {
-	max-width: 840px;
+	max-width: 900px;
 	min-width:820px;
 	margin:auto;
 	align-content: center;
@@ -86,7 +86,7 @@ nav {
 .left {
 	float: left;
 	padding: 25px;
-	/*margin-left: 210px;*/
+	margin-left: 60px;
 	margin-right: 175px;
 
 
