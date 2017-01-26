@@ -7,6 +7,13 @@ header#mySketch {
 
 }
 
+article {
+	max-width: 840px;
+	min-width:820px;
+	margin:auto;
+	align-content: center;
+}
+
 header#name {
 	margin: 290px auto 10px auto;
 }
@@ -49,7 +56,7 @@ p {
 
 /* unvisited link */
 a:link {
-    color: #white;
+    color:#4391AF;
     text-decoration: none;
 		padding-right:20px;
 }
@@ -79,8 +86,8 @@ nav {
 .left {
 	float: left;
 	padding: 25px;
-	margin-left: 210px;
-	margin-right: 95px;
+	/*margin-left: 210px;*/
+	margin-right: 175px;
 
 
 }
@@ -88,16 +95,17 @@ nav {
 .middle {
 	float: left;
 	padding: 25px;
-	margin-left: 80px;
-	margin-right: 60px;
+	/*margin-left: 80px;
+	margin-right: 60px;*/
+	margin-right: 120px;
 
 }
 
 .right {
 	float: left;
 	padding: 25px;
-	margin-left: 50px;
-	margin-right: 20px;
+	/*margin-left: 50px;
+	margin-right: 20px;*/
 
 }
 
