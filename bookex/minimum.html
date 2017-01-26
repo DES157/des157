@@ -1,0 +1,50 @@
+<!-- Template for book solutions ("bookExTemplate.html") from glenda drew --> 
+<!--NOTE: Replace all of the uppercase text from glenda with your own custom content-->
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> ADRIAN ANG / CH 3 / MINIMUM / DES 157 / WINTER 2017</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px
+        }
+
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            color: white;
+            background-color: #333;
+            font-size: 11px;
+            margin: 24px;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>chapter 3 - minimum</h1>
+    <h2>open the console to see the results of the script</h2>
+
+    <script> 
+        // This script compares two arguments, finds the minimum between them, and returns it.
+        function min(num1, num2) {
+            if(num1 < num2) {
+                return num1;
+            } else if(num1 > num2) {
+                return num2;
+            } else if(num1 == num2) {
+                return "Your inputs have the same value!";
+            }
+        }
+
+        console.log(min(-4, 50));
+        console.log(min(12, 8));
+        console.log(min("qwerty", "qwerty"));
+    </script>
+</body>
