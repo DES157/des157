@@ -1,4 +1,45 @@
 * {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+input[type=text] - i think
+*/
+
+/*
+font-family: 'Meddon', 'Dawning of a New Day','Homemade Apple', cursive;
+*/
+
+/*inside the textarea*/
+input[type="text"] {
+    padding: 10px;
+    border:none;
+}
+/*click inside text area*/
+input[type=text]:focus {
+    outline:none;
+}
+
+.hide {
+    display:none;
+}
+
+.show {
+    display: block;
+}
+
+footer {
+    clear: both; /*break from float*/
+    position: fixed;
+    bottom: 0px;
+    height: 20px;
+    background-color: #EAC324;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 0px 2px 0px;
+}
+
+footer a {
+    color: #875500;
 }
