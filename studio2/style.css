@@ -4,21 +4,146 @@
 }
 
 /*
-input[type=text] - i think
-*/
-
-/*
 font-family: 'Meddon', 'Dawning of a New Day','Homemade Apple', cursive;
 */
+body {
+    background-color: #EAC324;
+    margin:auto;
+    font-family:'Homemade Apple', cursive;
+    font-size: 14px;
+    color: #00271F;
+}
+
+body, header, footer {
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    margin-top:-50px;
+}
+
+h1 {
+    text-align:center;
+    color: #ffffff;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 55px;
+}
+
+main {
+    background-image: url('images/paper.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: none;
+    width:800px;
+    height: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+article {
+    width: 290px;
+    margin-top:140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article section {
+    width: 50%;
+    float:left;
+}
+
+#names {
+    clear:both;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width:100%;
+    border-bottom: 1px dotted #00271F;
+}
+
+#names div {
+    float:left;
+    width:50%;
+}
+
+#buttons {
+    clear: both;
+    margin-top:40px;
+    width:100%;
+    text-align:center;
+}
 
 /*inside the textarea*/
 input[type="text"] {
-    padding: 10px;
+    font-family: 'Homemade Apple', cursive;
+    width:100px;
+    padding: 5px 7px;
     border:none;
+    border-bottom: 2px solid #00271F;
+    color: #00271F;
+    background:transparent;
 }
 /*click inside text area*/
 input[type=text]:focus {
     outline:none;
+}
+
+input[type=submit], input[type=reset] {
+    background: transparent;
+    border: none;
+    font-family: 'Homemade Apple', cursive;
+    padding: 0px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type=submit]:focus, input[type=reset]:focus {
+    outline: none;
+    border-bottom: 2px solid #00271F
+}
+
+label {
+}
+
+div {
+    box-sizing: border-box;
+    padding: 0px 15px;
+}
+
+aside {
+    background-image: url('images/messageReceived.gif');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: none;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+p {
+    width: 310px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 22px;
+    color: #00271F;
+    padding-top:35px;
+}
+
+em {
+    font-weight: bold;
+    text-decoration: underline;
+    transition: ease-in-out 0.7s;
+}
+
+em:hover {
+    color: #EAC324;
 }
 
 .hide {
@@ -29,12 +154,24 @@ input[type=text]:focus {
     display: block;
 }
 
+a {
+    color: #EAC324;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #00271F;
+    text-decoration: underline;
+}
+
 footer {
     clear: both; /*break from float*/
     position: fixed;
     bottom: 0px;
     height: 20px;
     background-color: #EAC324;
+    font-family: consolas, helvetica, sans-serif;
     font-size: 10px;
     text-align: center;
     padding: 10px 0px 2px 0px;

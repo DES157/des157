@@ -10,7 +10,7 @@ body {
     font-family: consolas, Helvetica, sans-serif;
     font-size: 12px;
     color: #00271F;
-    background-color: #EEF2E0;
+    background-color: #fff7e8;
 }
 
 header {
@@ -46,10 +46,15 @@ ul {
     border-bottom:2px solid #ffffff;
 }
 
+li {
+    padding-bottom:10px;
+}
+
 a {
     color: #875500;
     text-decoration: none;
     text-transform: uppercase;
+    transition: ease-in-out 0.7s;
 }
 
 a:hover {
