@@ -6,6 +6,7 @@
 /*
 font-family: 'Meddon', 'Dawning of a New Day','Homemade Apple', cursive;
 */
+
 body {
     background-color: #EAC324;
     margin:auto;
@@ -31,7 +32,7 @@ h1 {
 }
 
 main {
-    background-image: url('images/paper.png');
+    background-image: url('images/paper.PNG');
     background-size: 100%;
     background-position: center;
     background-repeat: none;
