@@ -3,45 +3,145 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Madlibs 2.0</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+	<script src="script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.21p5.js">
 	</script>
-	<script src="script.js"></script>
-	<link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-<header>Censored Song</header>
-
-<!--<img src="#" width="800px" height="183px" alt="Something"/>-->
+<header>
+<img src="images/bigsean.png" width="650px" height="433px" alt="Big Sean"/>
+</header>
 
 <article>
-	<p>Help censor this song so that it can be played on the radio.</p>
+<h1>Censored Song</h1>
+
+	<p class= "radio">"Hey Big Sean, this is WCKD Radio. Could you send over a censored version of your song? We have been getting complaints from parents regarding your lyrics."</p>
 	<form name="f">
+		<section class="left">
 		<div>
-			<label>Verb (present tense)</label><br>
-			<input type="text" name="verb">
+			<label>Verb </label><br>
+			<input type="text" name="verb1">
+		</div>
+
+    <div>
+			<label>Adjective</label><br>
+			<input type="text" name="adjective1">
 		</div>
 
 		<div>
 			<label>Noun</label><br>
-			<input type="text" name="noun">
+			<input type="text" name="noun1">
 		</div>
 
-		<div>
-			<label>Adjective</label><br>
-			<input type="text" name="adjective">
+    <div>
+    <label>Noun</label><br>
+			<input type="text" name="noun2">
 		</div>
-		<input type="submit" value="Let's Go!">
+
+    <div>
+  <label>Verb (-ing)</label><br>
+			<input type="text" name="verb2">
+		</div>
+
+
+    <div>
+  <label>Adjective</label><br>
+			<input type="text" name="adjective2">
+		</div>
+
+    <div>
+    <label>Noun</label><br>
+			<input type="text" name="noun3">
+		</div>
+
+    <div>
+    <label>Noun</label><br>
+			<input type="text" name="noun4">
+		</div>
+
+    <div>
+  <label>Verb (-ing)</label><br>
+			<input type="text" name="verb3">
+		</div>
+	</section>
+  <section class="right">
+    <div>
+  <label>Verb (-ing)</label><br>
+			<input type="text" name="verb4">
+		</div>
+
+    <div>
+  <label>Adjective</label><br>
+			<input type="text" name="adjective3">
+		</div>
+
+    <div>
+    <label>Noun</label><br>
+			<input type="text" name="noun5">
+		</div>
+
+    <div>
+    <label>Noun</label><br>
+			<input type="text" name="noun6">
+		</div>
+
+
+    <div>
+    <label>Noun</label><br>
+			<input type="text" name="noun7">
+		</div>
+
+    <div>
+    <label>Noun</label><br>
+			<input type="text" name="noun8">
+		</div>
+
+    <div>
+    <label>Noun</label><br>
+			<input type="text" name="noun9">
+		</div>
+
+    <div>
+    <label>Noun</label><br>
+			<input type="text" name="noun10">
+		</div>
+
+    <div>
+    <label>Noun</label><br>
+			<input type="text" name="noun11">
+		</div>
+
+		<input type="reset" value="Start Over">
+		<input type="submit" value="Take it to the recording studio">
+	</section>
 	</form>
-</article>
+	<section class="lyrics">
+  <p id="myMsg"></p>
+</section>
+  </article>
 
+<section class="other">
+	<img src="images/BSwhat.png" width="594px" height="406px" alt="Big Sean"/>
+</section>
 
+	<footer>
+		<div class="visibleLink">
+			<a style=color:white; href="../index.html">Back to Portal</a>
+			<a style=color:white; href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fkstor001.github.io%2Fdes157%2Fdes157%2F">Valid HTML 5</a>
+			<a style=color:white; href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkstor001.github.io%2Fdes157%2Fdes157%2F&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en">Valid CSS </a>
+		</div>
+	</footer>
 
-
-
+<!--link to js file-->
 <script src="script.js" ></script>
 
+<!--audio file link -->
+ <audio autoplay>
+	 <source src="IDFWU.mp3" type="audio/mp3">
+ </audio>
 </body>
 
 </html>

@@ -146,10 +146,6 @@ footer {
   background-color: #DCFEFF;
   font-size: 1.5em;
   background-image: url("studio1/images/waves.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
   clear: both;
   position: fixed;
   left: 0;
