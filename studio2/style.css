@@ -35,7 +35,7 @@ main {
     background-image: url('images/paper.PNG');
     background-size: 100%;
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     width:800px;
     height: 800px;
     margin-left:auto;
@@ -120,7 +120,7 @@ aside {
     background-image: url('images/messageReceived.gif');
     background-size: 100%;
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     width: 800px;
     height: 600px;
     margin: auto;
