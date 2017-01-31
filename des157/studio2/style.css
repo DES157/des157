@@ -1,7 +1,6 @@
 /*stylesheet for studio 2*/
 
 header {
-  align-content:right;
   float:right;
   margin-top: -50px;
 }
@@ -35,7 +34,6 @@ body {
    margin-top:-50px;
    margin-bottom: 30px;
    max-width:400px;
-   padding-left: auto;
  }
 
 .left {
@@ -59,9 +57,6 @@ body {
   margin-right: 120px;
 }
 
-.visibleLink {
-  align-content: right;
-}
 
 footer {
   color: white;
