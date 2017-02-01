@@ -13,12 +13,13 @@ function draw() {
   color[] colors = new color[4];
 //lines color ranges array
  colors[0] = color(255);
- colors[1] = color('#5AC6D3');
- colors[2] = color('#35A8AC');
- colors[3] = color('#125A6D');
+ colors[1] = color('#4391AF');
+ colors[2] = color('#52BDE7');
+ colors[3] = color('#4786A2');
  
   stroke(colors[var(random(colors.length))]);
   strokeWeight(2);
+  strokeCap(ROUND);
   ellipse(k,j,p,p);
   line(k,j,touchX,touchY);
   
@@ -26,7 +27,7 @@ function draw() {
   
  if (touchX <=200){
    strokeWeight(10);
-   stroke('#5AC6D3');
+   stroke('#4391AF');
    noFill();
    ellipse(k,j,p,p);
    
@@ -34,7 +35,7 @@ function draw() {
    
  } else if ((touchX >200)&&(touchX <400)){
    strokeWeight(10);
-   stroke('#35A8AC');
+   stroke('#52BDE7');
    noFill();
    ellipse(k,j,p,p);
   
@@ -48,7 +49,7 @@ function draw() {
    
  } else{
    strokeWeight(10);
-   stroke('#125A6D');
+   stroke('#4786A2');
    noFill();
    ellipse(k,j,p,p);
   
