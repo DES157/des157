@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     myMsg.innerHTML="<div>My Dearest, <em>" + name1 + "</em></div> Please excuse the state of my handwriting for I am still in a state of <em>" + noun1 + "</em> and <em>" + noun2 + "</em> from being in your presence. It is with great pleasure to finally express my <em>" + noun3 + "</em> to you. I hope this does not come as a surprise from our daily walks that I find you utterly <em>" + adj1 + "</em>. So please, do forgive me for resorting to such quieter means of confession. Forgive me for my <em>" + noun4 + "</em>, as I cannot face you in my current condition. I am but a <em>" + adj2 + "</em> fool! A fool for your love and <em>" + adj3 + "</em> disposition and <em>" + adj4 + "</em> smile, oh, I sound like a <em>" + adj5 + "</em> fool. Please, would you kindly keep me in your thoughts as well? I hope my boldness does not deter you and I look forward to our next meeting. <div>Forever yours, <em>" + name2 + "</em></div>";
 
-    bgimg.className="show"; //select p class name and change so you can see the message
+    bgimg.className="show"; //select the bgimg id (aside) and change so you can see the message
     }
 
     //prevent page from reloading

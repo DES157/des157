@@ -1,0 +1,51 @@
+<!--NOTE: Replace all of the uppercase text from glenda with your own custom content-->
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book Exercise - CH 13: THE CAT'S HAT</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Ch 13: The Cat's Hat</h1>
+    <h2>
+            Extend the cat animation defined earlier so that both the cat and his hat orbit at opposite sides of the ellipse.
+      </h2>
+    <a href="http://9hours.github.io/des157/">go back to portal</a>
+
+    <img src="http://eloquentjavascript.net/img/cat.png" id="cat" style="position: absolute">
+    <img src="http://eloquentjavascript.net/img/hat.png" id="hat" style="position: absolute">
+
+    <script>
+        var cat = document.querySelector("#cat"); //get the cat img
+        var hat = document.querySelector("#hat"); //get the hat img
+        var angle = 0;
+        var hatAngle = 0;
+        lastTime = null;
+
+        function animate(time) {
+            if (lastTime != null)
+                angle += (time - lastTime) * 0.001;
+            hatAngle += (time - lastTime) * 0.001; //different speed if i want
+            lastTime = time;
+
+            cat.style.top = (Math.sin(angle) * 100) + 300 + "px";
+            //y coordinate
+            //20 = vertical radius
+            cat.style.left = (Math.cos(angle) * 100) + 120 + "px";
+            //x coordinate
+            //circle is wider than it is height
+
+            //positioning the center is the number added
+
+            hat.style.top = (Math.cos(hatAngle) * 100) + 300 + "px";
+            hat.style.left = (Math.sin(hatAngle) * 100) + 120 + "px";
+            requestAnimationFrame(animate);
+        }
+        requestAnimationFrame(animate);
+    </script>
+</body>
+
+</html>

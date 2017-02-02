@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, footer {
+    background-color: #EAC324;
+}
+
+a {
+    color: #875500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    clear: both; /*break from float*/
+    position: fixed;
+    bottom: 0px;
+    padding: 10px 0px 2px 0px;
+    height: 20px;
+    font-size:10px;
+    text-align: center;
+}

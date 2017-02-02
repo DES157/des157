@@ -25,21 +25,29 @@ article {
     position: absolute;
     top: 250px;
     padding: 23px 0px 10px 0px;
-    background-color: #EAC324;
     color:#ffffff;
+}
+
+article, footer {
+    background-color: #EAC324;
+}
+
+article, h2, footer {
     text-align: center;
 }
 
 /*my name*/
 h1 {
-    text-transform: uppercase;
     font-size: 30px;
+}
 
+h1, h2, a {
+    text-transform: uppercase;
 }
 
 h5 {
     font-style: italic;
-    margin-top:5px;
+    margin-top: 5px;
 }
 
 section {
@@ -58,15 +66,12 @@ div {
 
 /* exercises, studios, project*/
 h2 {
-    text-align: center;
-    text-transform: uppercase;
     padding-bottom: 15px;
 }
 
 a {
     color: #EAC324;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 a:hover {
@@ -87,9 +92,7 @@ footer {
     position: fixed;
     bottom: 0px;
     height: 20px;
-    background-color: #EAC324;
     font-size: 10px;
-    text-align: center;
     padding: 10px 0px 2px 0px;
 }
 

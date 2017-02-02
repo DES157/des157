@@ -3,179 +3,184 @@
     padding: 0px;
 }
 
-/*
-font-family: 'Meddon', 'Dawning of a New Day','Homemade Apple', cursive;
-*/
+/* font-family: 'Homemade Apple', cursive; */
 
 body {
-    background-color: #EAC324;
-    margin:auto;
-    font-family:'Homemade Apple', cursive;
     font-size: 14px;
+}
+
+body, p, input[type="text"], a:hover {
     color: #00271F;
 }
 
-body, header, footer {
+body, footer {
+    background-color: #EAC324;
+}
+
+body, aside {
+    margin: auto;
+}
+
+body, header, #names, #buttons, footer {
     width: 100%;
+}
+
+body, h1, input[type="text"], input[type=submit], input[type=reset] {
+    font-family:'Homemade Apple', cursive;
 }
 
 header {
     position: absolute;
-    margin-top:-50px;
+    margin-top: -50px;
 }
 
 h1 {
-    text-align:center;
     color: #ffffff;
-    font-family: 'Homemade Apple', cursive;
     font-size: 55px;
+}
+
+h1, #buttons, footer {
+    text-align: center;
 }
 
 main {
     background-image: url('images/paper.PNG');
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width:800px;
     height: 800px;
-    margin-left:auto;
-    margin-right:auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    box-sizing: border-box;
     padding: 30px;
 }
 
-article {
-    width: 290px;
-    margin-top:140px;
+main, aside {
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+}
+
+main, div {
+    box-sizing: border-box;
+}
+
+main, article, p {
     margin-left: auto;
     margin-right: auto;
 }
 
+article {
+    width: 290px;
+    margin-top: 140px;
+}
+
+/* nouns & adjectives columns */
 article section {
     width: 50%;
-    float:left;
+    float: left;
 }
 
 #names {
-    clear:both;
     margin-top: 100px;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    width:100%;
     border-bottom: 1px dotted #00271F;
 }
 
+/*clear from the floats*/
+#names, #buttons, footer {
+    clear: both;
+}
+
 #names div {
-    float:left;
-    width:50%;
+    float: left;
+    width: 50%;
 }
 
 #buttons {
-    clear: both;
-    margin-top:40px;
-    width:100%;
-    text-align:center;
+    margin-top: 40px;
 }
 
 /*inside the textarea*/
 input[type="text"] {
-    font-family: 'Homemade Apple', cursive;
-    width:100px;
+    width: 100px;
     padding: 5px 7px;
-    border:none;
-    border-bottom: 2px solid #00271F;
-    color: #00271F;
-    background:transparent;
+    border: none;
+    background: transparent;
 }
 /*click inside text area*/
-input[type=text]:focus {
-    outline:none;
+input[type=text]:focus, input[type=submit]:focus, input[type=reset]:focus {
+    outline: none;
 }
 
 input[type=submit], input[type=reset] {
     background: transparent;
     border: none;
-    font-family: 'Homemade Apple', cursive;
     padding: 0px 16px;
-    text-decoration: none;
     cursor: pointer;
 }
 
-input[type=submit]:focus, input[type=reset]:focus {
-    outline: none;
+input[type="text"], input[type=submit]:focus, input[type=reset]:focus {
     border-bottom: 2px solid #00271F
 }
 
-label {
-}
-
+/* each input thing is nested in divs*/
 div {
-    box-sizing: border-box;
     padding: 0px 15px;
 }
 
-aside {
-    background-image: url('images/messageReceived.gif');
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 800px;
-    height: 600px;
-    margin: auto;
-    margin-bottom: 100px;
-}
-
-p {
-    width: 310px;
-    margin-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
-    line-height: 22px;
-    color: #00271F;
-    padding-top:35px;
-}
-
-em {
-    font-weight: bold;
-    text-decoration: underline;
-    transition: ease-in-out 0.7s;
-}
-
-em:hover {
-    color: #EAC324;
-}
-
+/*FOR THE LETTER*/
 .hide {
-    display:none;
+    display: none;
 }
 
 .show {
     display: block;
 }
 
-a {
-    color: #EAC324;
-    text-decoration: none;
-    text-transform: uppercase;
+/* SECRET LETTER */
+aside {
+    background-image: url('images/messageReceived.gif');
+    height: 600px;
+    margin-bottom: 100px;
 }
 
-a:hover {
-    color: #00271F;
+p {
+    width: 310px;
+    margin-top: 50px;
+    padding-top: 35px;
+    line-height: 22px;
+}
+
+em {
+    font-weight: bold;
+}
+
+em, a:hover {
     text-decoration: underline;
 }
 
+em:hover, a {
+    color: #EAC324;
+}
+
+em, a {
+    transition: ease-in-out 0.5s;
+}
+
+a {
+    text-transform: uppercase;
+}
+
+a, input[type=submit], input[type=reset] {
+    text-decoration: none;
+}
+
 footer {
-    clear: both; /*break from float*/
     position: fixed;
     bottom: 0px;
     height: 20px;
-    background-color: #EAC324;
+    padding: 10px 0px 2px 0px;
     font-family: consolas, helvetica, sans-serif;
     font-size: 10px;
-    text-align: center;
-    padding: 10px 0px 2px 0px;
 }
 
 footer a {
