@@ -1,0 +1,30 @@
+p {
+	max-width: 800px;
+	text-align:left;
+	margin-left: 235px;
+	color: #4391AF;
+}
+
+body {
+	text-align:center;
+	margin: auto;
+	margin: auto;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:1em;
+	background-color: #DCFEFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+	color: #4391AF;
+	font-size: 3em;
+}
+
+h2 {
+	color: #4391AF;
+	margin-top:70px;
+}

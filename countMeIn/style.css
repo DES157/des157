@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+    background-color:#333;
+    font-size: 11px;
+    margin:24px;
+}
+h1{
+  margin-bottom:24px;
+}

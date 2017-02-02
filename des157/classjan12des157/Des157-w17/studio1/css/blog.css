@@ -1,0 +1,19 @@
+p {
+	max-width: 600px;
+	margin-left: 300px;
+	color:white;
+}
+
+body {
+	text-align:center;
+	font-family: "Gill Sans", sans-serif;
+	margin: auto;
+	background-image: url("../images/waves.png");
+}
+
+h1 {
+	color: white;
+	font-size: 3em;
+}
+
+/* This is the Blog css*/

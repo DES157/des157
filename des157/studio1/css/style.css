@@ -1,0 +1,97 @@
+/*stylesheet for portal*/
+
+body {
+	margin: auto;
+	text-align: center;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-size:0.85em;
+	background-color: #4391AF;
+	background-image: url("des157/studio1/images/waves.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 	
+}
+
+h1 {
+	color: white;
+
+}
+
+h2 {
+	color: white;
+	text-decoration: underline;
+	
+}
+
+#mySketch {
+	width:800px;
+	height:250px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.left {
+	float: left;
+	padding: 25px;
+	margin-left: 200px;
+	margin-right: 20px;
+	
+}
+
+.middle {
+	float: left;
+	padding: 25px;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+.right {
+	float: left;
+	padding: 25px;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+
+ul {
+	color: white;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+ol {
+	color: white;
+    text-decoration: none;
+    
+}
+
+footer {
+	clear: both;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border: 3px solid white;
+	font-size:1.5em;		
+}

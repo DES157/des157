@@ -1,0 +1,84 @@
+/* Blog for Portal CSS */
+
+section {
+	text-align:left;
+	max-width: 800px;
+	margin-left: 235px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #4391AF;
+	border-bottom: 2px solid white;
+}
+
+p {
+	max-width: 800px;
+	margin-bottom: 50px;
+}
+
+body {
+	text-align:center;
+	margin: auto;
+	margin: auto;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:1.1em;
+	background-color: #DCFEFF;
+}
+
+h1 {
+	color: #4391AF;
+	font-size: 3em;
+}
+
+h2 {
+	color: #4391AF;
+	margin-top:70px;
+	text-align:left;
+}
+
+div {
+	margin-bottom: 50px;
+}
+
+/* unvisited link */
+a:link {
+    color: #4391AF;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #4391AF;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: #4391AF;
+}
+
+.left {
+	float: left;
+	padding: 25px;
+	margin-left: 200px;
+	margin-right: 20px;
+
+}
+
+.middle {
+	float: left;
+	padding: 25px;
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+.right {
+	float: left;
+	padding: 25px;
+	margin-left: 50px;
+	margin-right: 20px;
+}

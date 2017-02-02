@@ -1,0 +1,155 @@
+/*stylesheet for portal*/
+
+header#mySketch {
+  width: 800px;
+  height: 250px;
+  margin: -190px auto 0px auto;
+}
+
+article {
+  max-width: 900px;
+  min-width: 820px;
+  margin: auto;
+  align-content: center;
+}
+
+header#name {
+  margin: 290px auto 10px auto;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
+  background-color: #DCFEFF;
+  /*  #4391AF
+	background-image: url("studio1/images/background2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;*/
+}
+
+h1 {
+  color: #4391AF;
+}
+
+h2 {
+  color: #4391AF;
+  text-align: left;
+  /*text-decoration: underline;*/
+}
+
+p {
+  color: #4391AF;
+}
+
+#mySketch {
+  width: 800px;
+  height: 250px;
+}
+
+
+/* unvisited link */
+
+a:link {
+  color: #4391AF;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+
+/* visited link */
+
+a:visited {
+  color: #4391AF;
+}
+
+
+/* mouse over link */
+
+a:hover {
+  color: hotpink;
+}
+
+
+/* selected link */
+
+
+/*a:active {
+    color: #4391AF;
+}*/
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+  color: #4391AF;
+}
+
+.left {
+  float: left;
+  padding: 25px;
+  margin-left: 60px;
+  margin-right: 175px;
+}
+
+.middle {
+  float: left;
+  padding: 25px;
+  /*margin-left: 80px;
+	margin-right: 60px;*/
+  margin-right: 120px;
+}
+
+.right {
+  float: left;
+  padding: 25px;
+  /*margin-left: 50px;
+	margin-right: 20px;*/
+}
+
+ul {
+  color: #4391AF;
+  margin-left: -40px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: left;
+}
+
+ol {
+  color: #4391AF;
+  margin-left: -30px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.visibleLink:link {
+  color: #ffffff;
+}
+
+.visibleLink:visited {
+  color: #ffffff;
+}
+
+.visibleLink:hover {
+  color: #ffffff;
+}
+
+.visibleLink:active {
+  color: #ffffff;
+}
+
+footer {
+  /*color: white;*/
+  background-color: #DCFEFF;
+  font-size: 1.5em;
+  background-image: url("studio1/images/waves.png");
+  clear: both;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 3px solid white;
+}
