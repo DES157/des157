@@ -1,61 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	margin: auto;
-	font-family: 'Overpass', sans-serif;
-	color: #4D4D4D;
-	}
+	background: green;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
 
-header {
-	width: 800px;
-	height: 250px;
-	padding-top: 10px;
-}	
+form, p {
+	display: inline-block;	
+}
 
-body, section, footer {
-	width: 800px;
-	}
+form {
+	margin-top: 100px;
+	margin-left: 25%;
+	padding-right: 45px;
+}
 
 div {
-	float: left;
-	width: 250px;
-	padding-right: 15px;
-	font-weight: 400;
-	}
-
-ul, ol {
-	margin-top: 4px;
-	padding-left: 30px;
+	margin: 10px;
 }
 
-footer {
-	clear: both;
-	}
-
-a, footer {
-	text-align: center;
+label {
+	display: inline-block;
+	width: 200px;
+	padding-right: 10px;
 }
 
-h1, h2 {
-	margin-bottom: 0;
-	font-weight: 900;
-	letter-spacing: 1.5px
+form {
+	display: inline-block;
 }
 
-h3 {
-	margin: 0;
-	font-weight: 400;
-	letter-spacing: 3px;
-}
-
-a:link {
-	text-decoration: none;
-	color: #999999;
-}
-
-a:visited {
-	color: #808080;
-}
-
-a:hover, h1:hover, h2:hover {
-	background-color: #4D4D4D;
-	color: #FFFFFF;
+input[type="reset"], input[type="submit"] {
+	position: relative;
+	padding: 5px;
+	margin-left: 25px;
 }
