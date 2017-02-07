@@ -1,28 +1,171 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* start all css with a reset */
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
-body, footer {
+body{
+    font-family: consolas, helvetica, sans-serif;
+    font-size: 12px;
+}
+
+body, p, footer {
     background-color: #EAC324;
 }
 
-a {
-    color: #875500;
-    text-decoration: none;
+/* JUST THE H1 */
+header {
+    margin-top: 70px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+header, footer {
+    text-align: center;
     text-transform: uppercase;
 }
 
-a:hover {
-    text-decoration: underline;
+/* CONTAINS BOTH BOXES */
+main {
+    height: 520px;
+    width: 1250px;
+    margin-top:50px;
+    margin-bottom: 130px;
 }
+
+main, #empty {
+    margin: auto;
+}
+
+article {
+    height: 520px;
+    width: 620px;
+    margin-left: 5px;
+    background-color: #ffffff;
+    border: 7px solid #EAC324;
+}
+
+article, p {
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+/* LEFT BOX */
+#closet {
+    padding-left: 160px;
+}
+
+#closet img {
+    position: relative;
+    top: 130px;
+    width: 225px;
+    height: 280px;
+    margin-left: -140px;
+    filter: grayscale(100%);
+    transition: all 0.7s;
+}
+
+#closet img:hover {
+    top: 80px;
+    filter: grayscale(0%);
+}
+
+/* IMAGES */
+#northface {
+    z-index: 5;
+}
+
+#redCoat {
+    z-index: 4;
+}
+
+#rainCoat {
+    z-index: 3;
+}
+
+#reebok {
+    z-index: 2;
+}
+
+#purple {
+    z-index: 1;
+}
+/* IMAGES */
+/* END OF LEFT BOX */
+
+
+/* RIGHT BOX */
+#place {
+    height: 325px;
+}
+
+#close {
+    padding: 10px;
+}
+
+#close, #closet img:hover {
+    cursor: pointer;
+}
+
+#close, #about {
+    float: right;
+}
+
+article, #closet img {
+  float: left;
+}
+
+/* EMPTY IMAGE AREA TO INSERT*/
+#empty {
+    padding-top: 50px;
+    display: none;
+}
+
+/* CONTAINER FOR INFO */
+aside {
+    height: 170px;
+}
+
+/* ABOUT AVATAR IMG */
+#about {
+    width: 150px;
+    height: 150px;
+    margin-top: -10px;
+    padding: 10px 12px 10px 10px;
+}
+
+/* ABOUT TEXT BOX */
+p {
+    width: 400px;
+    height:145px;
+    margin: 20px 0px 10px 20px;
+    padding: 20px;
+}
+/* END OF RIGHTBOX */
 
 footer {
     clear: both; /*break from float*/
     position: fixed;
     bottom: 0px;
-    padding: 10px 0px 2px 0px;
     height: 20px;
-    font-size:10px;
-    text-align: center;
+    width: 100%;
+    padding: 10px 0px 2px 0px;
+    font-size: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #875500;
+    transition: ease-in-out all 0.5s;
+}
+
+a:hover {
+    color: #00271F;
+    text-decoration: underline;
 }

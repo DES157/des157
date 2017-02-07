@@ -72,6 +72,7 @@ h2 {
 a {
     color: #EAC324;
     text-decoration: none;
+    transition: ease-in-out all 0.5s;
 }
 
 a:hover {
