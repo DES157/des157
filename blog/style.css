@@ -5,17 +5,25 @@
 
 
 body {
-    width:600px;
-    margin: auto;
     font-family: consolas, Helvetica, sans-serif;
     font-size: 12px;
-    color: #00271F;
     background-color: #fff7e8;
+    margin: auto;
+}
+
+body, a:hover {
+    color: #00271F;
+}
+
+body, header, main, footer {
+    width: 600px;
 }
 
 header {
-    width: 600px;
     height: 180px;
+}
+
+header, footer, nav {
     background-color: #EAC324;
 }
 
@@ -24,56 +32,59 @@ header {
 }
 
 nav {
-    position:fixed;
+    position: fixed;
     top: 200px;
     left: 150px;
     width: 150px;
-    background-color: #EAC324;
-    color: #ffffff;
     padding-bottom: 10px;
+    color: #ffffff;
+}
+
+nav, footer {
     text-align: center;
 }
 
 /*NAV*/
 h3 {
     padding: 10px 0px;
-    border-bottom:2px solid #ffffff;
+}
+
+h3, ul {
+    border-bottom: 2px solid #ffffff;
 }
 
 ul {
     list-style-type: none;
-    padding: 10px 0px 0px 0px;
-    border-bottom:2px solid #ffffff;
+    padding-top: 10px;
 }
 
 li {
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
 
 a {
     color: #875500;
     text-decoration: none;
-    text-transform: uppercase;
-    transition: ease-in-out 0.7s;
+    transition: ease-in-out 0.5s;
 }
 
 a:hover {
-    color: #00271F;
     text-decoration: underline;
 }
 
 /*go back to portal*/
 #portal {
-    font-size: 10px;
     display: inline-block;
+    font-size: 10px;
     padding-top:10px;
 }
 
+/*body of the blog where articles are posts*/
 main {
-    width: 600px;
     margin-bottom: 50px;
 }
 
+/* BLOG POSTS*/
 article {
     width: 500px;
     background-color: #ffffff;
@@ -82,17 +93,21 @@ article {
     border: 3px double #EAC324;
 }
 
+h1, h4, a {
+    text-transform: uppercase;
+}
+
 /*title for articles */
 h1 {
-    text-transform: uppercase;
     font-size: 25px;
 }
 
+/* date */
 h4 {
-    text-transform: uppercase;
     color: #EAC324;
 }
 
+/*subtitle to express my HIDDEN FEELINGS ;D */
 h5 {
     font-style: italic;
 }
@@ -120,10 +135,7 @@ footer {
     clear: both; /*break from float*/
     position: fixed;
     bottom: 0px;
-    width: 600px;
     height: 20px;
-    background-color: #EAC324;
     font-size:10px;
-    text-align: center;
     padding: 10px 0px 2px 0px;
 }
