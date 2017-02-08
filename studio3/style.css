@@ -32,15 +32,15 @@ header, footer {
 }
 
 /* CONTAINS BOTH BOXES */
+main, #empty {
+    margin: auto;
+}
+
 main {
     height: 520px;
     width: 1250px;
     margin-top:50px;
     margin-bottom: 130px;
-}
-
-main, #empty {
-    margin: auto;
 }
 
 article {
@@ -53,7 +53,7 @@ article {
 
 article, p {
     box-sizing: border-box;
-    border-radius: 25px;
+    border-radius: 13px;
 }
 
 /* LEFT BOX */
