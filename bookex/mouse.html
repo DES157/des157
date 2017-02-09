@@ -6,6 +6,18 @@
     <meta charset="UTF-8">
     <title>Book Exercise - CH 14: MOUSE TRAIL</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+
+    <style>
+        .trail {
+            /* className for the trail elements */
+            position: absolute;
+            height: 8px;
+            width: 8px;
+            border-radius: 4px;
+            background: #ffffff;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -13,18 +25,41 @@
     <h2>write a loop that makes seven calls to console.log to output 7 #'s</h2>
     <a href="http://9hours.github.io/des157/">go back to portal</a>
     <script>
-        // ADD DESCRIPTIVE COMMENTS BEFORE STATEMENTS AND BLOCK OF CODE
-        var n = "";
+        //Creating the elements is best done in a loop. Append them to the document to make them show up. (checked! - they appear & there's 5 of them)
 
-        for (var i = 0; i <= 7; i++) {
-            console.log(n);
-            //start with n so that it starts with 1
-            //if i is first, it'll count like this: 1, 21, 321
-            //replace the i with "#"
-            //i represents the numbers so you replace it with the
-            //string "#"
-            n += "#";
+        //To be able to access them later to change their position, store the trail elements in an array.
+
+        //create an empty array to store the 5 steps
+        var mTrail = []; //mouse trail
+
+        for (var i = 0; i <= 5; i++) {
+            var steps = document.createElement("div"); //create a variable that makes an empty 'div' //no style
+            steps.className = "trail"; //give the unstyled steps div the 'trail' style
+            document.body.appendChild(steps); //add steps to the mouse trail
+            mTrail.push(steps); //add more steps to the end of the mouse trail when the first one goes away so it's continuous - to keep it at the length (5)
+            //console.log(mTrail);
         }
+
+        //step that is moving is the last in the list
+        //how do i make it so the previous steps have prev mouseX and mouseY
+
+        //Cycling through them can be done by keeping a counter variable and adding 1 to it every time the "mousemove" event fires. The remainder operator (% 10) can then be used to get a valid array index to pick the element you want to position during a given event.
+
+        var counter = 0;
+        //current position
+        addEventListener("mousemove", function(event) {
+            //create a new var to hold the array
+            //place the counter inside the array so that it'll count up to 5 steps
+            //because last step is current = 5
+            //counter at the end: 0, 1, 2, 3, 4, 5 (current)/repeats because of the % 6
+            var work = mTrail[counter];
+            //use var work for the styles to move the steps inside the mTrail array
+
+            work.style.left = (event.pageX - 4) + "px"; //i think the trail class name is replaced with steps so that's why we use steps
+            work.style.top = (event.pageY - 4) + "px"; //update: because everything (mTrail array <- steps <- .trail style), it now needs to access from var work
+
+            counter = (counter + 1) % 6; //so all 5 steps move;
+        });
     </script>
 </body>
 
