@@ -26,7 +26,7 @@ header, #classes, footer {
 
 /* JUST THE H1 */
 header {
-    margin-top: 70px;
+    margin-top: 180px;
     padding: 10px;
     color: #ffffff;
     font-size: 15px;
@@ -42,7 +42,7 @@ header, footer, #classes li{
 
 main {
     margin: auto;
-    margin-top:30px;
+    margin-top: 30px;
     width: 1050px;
 }
 
@@ -51,7 +51,7 @@ article {
 }
 
 ul {
-    list-style: none;;
+    list-style: none;
 }
 
 #vDay, #free, #songList1 li, #songList2 li {
@@ -121,7 +121,7 @@ header, #classes, #days li:nth-child(1), #days li:nth-child(3), #days li:nth-chi
 /* TOOL TIP */
 div {
     position: absolute;
-    width:115px;
+    width:120px;
     top:-80px;
     padding:15px;
     border-radius: 5px;
@@ -153,18 +153,18 @@ div {
 }
 
 #songList1 h2, #songList2 h2 {
-    margin-top: 40px;
+    margin-top: 150px;
     font-size: 60px;
     color: #ffffff;
 }
 
 #songList1 h3, #songList2 h3 {
-    margin-top:-40px;
+    margin-top:10px;
 }
 
 #songList1 ul, #songList2 ul {
     width: 250px;
-    height: 250px;
+    height: 260px;
     margin: auto;
     margin-top: 50px;
     padding: 5px;
