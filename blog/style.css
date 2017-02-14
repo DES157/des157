@@ -5,10 +5,11 @@
 
 
 body {
+    margin: auto;
     font-family: consolas, Helvetica, sans-serif;
     font-size: 12px;
     background-color: #fff7e8;
-    margin: auto;
+    letter-spacing: 2px;
 }
 
 body, a:hover {
