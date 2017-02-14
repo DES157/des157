@@ -54,8 +54,12 @@ ul {
     list-style: none;;
 }
 
-#classes li, #vDay, #free, #songList1 li, #songList2 li {
+#vDay, #free, #songList1 li, #songList2 li {
     cursor: pointer;
+}
+
+header, #classes, #days li:nth-child(1), #days li:nth-child(3), #days li:nth-child(4), #songList1 h2, #songList1 h3, #songList2 h2, #songList2 h3  {
+    cursor: default;
 }
 
 #classes {
