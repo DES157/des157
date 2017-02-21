@@ -5,11 +5,10 @@
 
 
 body {
-    margin: auto;
     font-family: consolas, Helvetica, sans-serif;
     font-size: 12px;
     background-color: #fff7e8;
-    letter-spacing: 2px;
+    margin: auto;
 }
 
 body, a:hover {
@@ -33,9 +32,9 @@ header, footer, nav {
 }
 
 nav {
-    position: fixed;
-    top: 200px;
-    left: 150px;
+    position: relative;
+    top: 20px;
+    left: -190px;
     width: 150px;
     padding-bottom: 10px;
     color: #ffffff;
@@ -82,6 +81,7 @@ a:hover {
 
 /*body of the blog where articles are posts*/
 main {
+    margin-top:-200px;
     margin-bottom: 50px;
 }
 
@@ -139,4 +139,5 @@ footer {
     height: 20px;
     font-size:10px;
     padding: 10px 0px 2px 0px;
+    letter-spacing: 2px;
 }
