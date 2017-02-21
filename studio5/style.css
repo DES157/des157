@@ -52,7 +52,6 @@ section {
   margin: 10px;
   border: 2px solid #ffffff;
   box-sizing: border-box;
-  overflow-x: auto;
 }
 
 h3 {
@@ -79,6 +78,7 @@ ul {
   height: 200px;
   padding: 10px;
   font-size: 10px;
+  overflow-x: auto;
 }
 
 li {
