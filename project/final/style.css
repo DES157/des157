@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: consolas, helvetica, sans-serif;
+    font-size: 12px;
+    margin: auto;
+}
+
+body, a:hover {
+    color: #00271F;
+}
+
+body, footer {
+    width: 1050px;
+    background-color: #EAC324;
+}
+
+footer {
+    clear: both; /*break from float*/
+    position: fixed;
+    bottom: 0px;
+    padding: 10px 0px 2px 0px;
+    height: 20px;
+    font-size:10px;
+    text-align: center;
+}
