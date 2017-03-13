@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* font-family: 'Homemade Apple', cursive; */
+
+body {
+    font-size: 14px;
+}
+
+body, p, input[type="text"], a:hover {
+    color: #00271F;
+}
+
+body, footer {
+    background-color: #EAC324;
+}
+
+body, aside {
+    margin: auto;
+}
+
+body, header, #names, #buttons, footer {
+    width: 100%;
+}
+
+body, h1, input[type="text"], input[type=submit], input[type=reset] {
+    font-family:'Homemade Apple', cursive;
+}
+
+header {
+    position: absolute;
+    margin-top: -50px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 55px;
+}
+
+h1, #buttons, footer {
+    text-align: center;
+}
+
+main {
+    background-image: url('images/paper.PNG');
+    height: 800px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+
+main, aside {
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+}
+
+main, div {
+    box-sizing: border-box;
+}
+
+main, article, p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    width: 290px;
+    margin-top: 140px;
+}
+
+/* nouns & adjectives columns */
+article section {
+    width: 50%;
+    float: left;
+}
+
+#names {
+    margin-top: 100px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #00271F;
+}
+
+/*clear from the floats*/
+#names, #buttons, footer {
+    clear: both;
+}
+
+#names div {
+    float: left;
+    width: 50%;
+}
+
+#buttons {
+    margin-top: 40px;
+}
+
+/*inside the textarea*/
+input[type="text"] {
+    width: 100px;
+    padding: 5px 7px;
+    border: none;
+    background: transparent;
+}
+/*click inside text area*/
+input[type=text]:focus, input[type=submit]:focus, input[type=reset]:focus {
+    outline: none;
+}
+
+input[type=submit], input[type=reset] {
+    background: transparent;
+    border: none;
+    padding: 0px 16px;
+    cursor: pointer;
+}
+
+input[type="text"], input[type=submit]:focus, input[type=reset]:focus {
+    border-bottom: 2px solid #00271F
+}
+
+/* each input thing is nested in divs*/
+div {
+    padding: 0px 15px;
+}
+
+/*FOR THE LETTER*/
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* SECRET LETTER */
+aside {
+    background-image: url('images/messageReceived.gif');
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+p {
+    width: 310px;
+    margin-top: 50px;
+    padding-top: 35px;
+    line-height: 22px;
+}
+
+em {
+    font-weight: bold;
+}
+
+em, a:hover {
+    text-decoration: underline;
+}
+
+em:hover, a {
+    color: #EAC324;
+}
+
+em, a {
+    transition: ease-in-out 0.5s;
+}
+
+a {
+    text-transform: uppercase;
+}
+
+a, input[type=submit], input[type=reset] {
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 20px;
+    padding: 10px 0px 2px 0px;
+    font-family: consolas, helvetica, sans-serif;
+    font-size: 10px;
+}
+
+footer a {
+    color: #875500;
+}

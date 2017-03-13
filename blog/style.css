@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px
+}
+
+body {
+  font-family: consolas, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: #fff7e8;
+  margin: auto;
+}
+
+body, a:hover {
+  color: #00271F;
+}
+
+body, header, main, footer {
+  width: 600px;
+}
+
+header {
+  height: 180px;
+}
+
+header, footer, nav {
+  background-color: #EAC324;
+}
+
+#banner {
+  background-image: url("images/banner.png");
+}
+
+nav {
+  position: relative;
+  top: 20px;
+  left: -190px;
+  width: 150px;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+nav, footer {
+  text-align: center;
+}
+
+
+/*NAV*/
+
+h3 {
+  padding: 10px 0px;
+}
+
+h3, ul {
+  border-bottom: 2px solid #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+a {
+  color: #875500;
+  text-decoration: none;
+  transition: ease-in-out 0.5s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/*go back to portal*/
+
+#portal {
+  display: inline-block;
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+
+/*body of the blog where articles are posts*/
+
+main {
+  margin-top: -200px;
+  margin-bottom: 50px;
+}
+
+
+/* BLOG POSTS*/
+
+article {
+  width: 500px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  border: 3px double #EAC324;
+}
+
+h1, h4, a {
+  text-transform: uppercase;
+}
+
+
+/*title for articles */
+
+h1 {
+  font-size: 25px;
+}
+
+
+/* date */
+
+h4 {
+  color: #EAC324;
+}
+
+
+/*subtitle to express my HIDDEN FEELINGS ;D */
+
+h5 {
+  font-style: italic;
+}
+
+img {
+  float: left;
+  padding: 0px 20px 10px 0px;
+}
+
+section h1 {
+  display: none;
+}
+
+p {
+  margin-top: 10px;
+}
+
+footer {
+  clear: both;
+  /*break from float*/
+  position: fixed;
+  bottom: 0px;
+  height: 20px;
+  font-size: 10px;
+  padding: 10px 0px 2px 0px;
+  letter-spacing: 2px;
+}
