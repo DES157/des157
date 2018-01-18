@@ -34,12 +34,14 @@ h2 {
   background-color: white;
   color: #f9ce64;
   font-size: 2em;
+  padding-bottom: 3%;
 }
 
 section {
   width: 40%;
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 2%;
   background: rgba(255, 255, 255, 0.8);
   color: inherit;
 }
