@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* Michelle Quach's DES 157 Portal, Winter 2018*/
+
+
+/*-----START STRUCTURAL STYLES-----*/
+
+.container {
+    position: relative;
+    min-height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    color: inherit;
+    padding: 1.5%;
+}
+
+header {
+    padding: 1%;
+    margin-top: 1.5%;
+}
+
+
+/*-----START TYPE STYLES, POSITIONING-----*/
+
+body {
+    background: url("images/bg.png");
+    background-size: 100%;
+    min-height: 100%;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1em;
+    padding: 1.5%;
+}
+
+h2 {
+    background-color: white;
+    color: #f9ce64;
+    font-size: 2em;
+}
+
+section {
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: rgba(255, 255, 255, 0.8);
+    color: inherit;
+}
+
+.studios {
+    float: left;
+}
+
+.projects {
+    float: right;
+}
+
+
+/*-----START LINK STYLES-----*/
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: #666666;
+    background-color: inherit;
+}
+
+a:hover {
+    color: #f9ce64;
+    text-decoration: underline;
+    background-color: inherit;
+}
+
+a:active {
+    color: #afe0e8;
+    background-color: inherit;
+}
+
+
+/*-----START FOOTER STYLES-----*/
+
+footer {
+    clear: both;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    font-size: 0.8em;
+    background-color: white;
+    color: inherit;
+    padding: 1%;
+}
+
+footer a {
+    margin-right: 50px;
+}
